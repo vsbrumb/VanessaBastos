@@ -1,12 +1,30 @@
 body {
+	height: 100%;
+	background-color: black;
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 }
 
-#background {
-	/* position: relative;
-	height: 100vh;
-	width: 100vw; */
+#page1 {
+	position: relative;
+	min-height: 100vh;
+}
+
+#page {
+	position: relative;
+	min-height: 100vh;
+}
+
+#page:after {
+	content: '';
+	display: block;
+	height: 100px;
+}
+
+.background {
+	/* position: relative; */
+	/* height: 100%;
+	width: 100%; */
 	background-image: url(../images/fundo.jpg);
 	background-size: cover;
 }
@@ -15,7 +33,7 @@ header {
 	top: 0;
 	right: 0;
 	left: 0;
-	width: 90%;
+	width: 100%;
 	padding: 2em;
 	z-index: 10;
 	text-align: center;
@@ -87,20 +105,25 @@ header a:hover {
 	font-weight: 500;
 }
 
-.box-banner {
-	top: 150px;
-/* 	position: relative;
- */	height: 200px;
-	width: 100%;
-	margin-block: 1px;
+h3 {
+	font-weight: 300;
+	font-size: 1.5em;
 }
 
-.banner {
-	height: 100%;
-	width: 100%;
+h2 {
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+p {
+	font-size: 0.9em;
+	text-align: justify;
+	margin: 0;
+	color: #74808a;
 }
 
 #about-me {
+	min-height: 100%;
 	max-width: 900px;
 	margin: 10px auto;
 	border: 1px solid #e6e6e6;
@@ -161,10 +184,6 @@ header a:hover {
 	float: right;
 }
 
-.biography p {
-	text-align: justify;
-}
-
 #box-research {
 	max-width: 900px;
 	margin: 10px auto;
@@ -175,26 +194,36 @@ header a:hover {
 	background: #fff;
 }
 
-.research-img-1 {
-	/* position: relative; */
-	float: right;
-	padding-left: 15px;
-	padding-bottom: 5px;
-	/* width: 50px; */
+.research {
+	margin-bottom: 50px;
 }
 
-.research-img-2 {
+.project img {
 	float: left;
 	padding-right: 15px;
-	padding-top: 5px;
-	/* padding-bottom: 5px; */
+	padding-bottom: 5px;
 }
 
-.research p {
-	text-align: justify;
-	/* font-size: 0.9em; */
-	margin: 0;
+.projects {
+	position: relative;
+}
 
+.project {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.project h2 {
+	font-size: 1.5em;
+	margin: 0 0 15px 0;
+	color: #7e8890;
+}
+
+.project h3 {
+	font-size: 1.2em;
+	text-align: left;
+	margin: 0 0 15px 0;
+	color: #374054;
 }
 
 #box-publication {
@@ -204,7 +233,7 @@ header a:hover {
 	border-radius: 4px;
 	text-align: center;
 	padding: 50px 15px;
-	background: #f2f2f5;
+	background: #fff;
 }
 
 .box-content {
@@ -215,7 +244,7 @@ header a:hover {
 }
 
 .content {
-	background: #fff;
+	background: #F8F8FF;
 	border: 1px solid #e6e6e6;
 	padding: 15px;
 	border-radius: 3px;
@@ -223,25 +252,21 @@ header a:hover {
 }
 
 .box-content h3 {
-	font-size: 1.5em;
-	font-weight: 300;
 	color: #374054;
 	display: inline-block;
 	margin: 0;
 }
 
 .box-content h2 {
-	font-size: 1.2em;
-	font-weight: 300;
 	color: #7e8890;
 	margin: 0 0 15px 0;
 }
 
-.box-content p {
-	color: #74808a;
-	font-size: 0.9em;
-	margin: 0;
-}
+
+
+
+
+
 
 
 
@@ -321,29 +346,29 @@ header a:hover {
 
 
 
-./* box-content a {
-	text-align: center;
-	margin-top: 10px;
-	color: red;
-} */
-
 footer {
-	padding: 50px, 0;
+	
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	padding: 25px 0;
+	
 }
 
 .box-footer {
 	position: relative;
 	display: flex
+
 }
 
-.box-footer p {
+footer p {
 	color: #fff;
 }
 
-.box-footer a {
+footer a {
 	color: #bea187;
 }
 
-.box-footer a:hover {
+footer a:hover {
 	color: #fff;
 }
