@@ -105,12 +105,12 @@ header a:hover {
 	font-weight: 500;
 }
 
-h3 {
+h2 {
 	font-weight: 300;
 	font-size: 1.5em;
 }
 
-h2 {
+h3 {
 	font-weight: 300;
 	font-size: 1.2em;
 }
@@ -204,7 +204,7 @@ p {
 	padding-bottom: 5px;
 }
 
-.projects {
+#projects {
 	position: relative;
 }
 
@@ -262,9 +262,45 @@ p {
 	margin: 0 0 15px 0;
 }
 
+#box-education {
+	max-width: 900px;
+	margin: 10px auto;
+	border: 1px solid #e6e6e6;
+	border-radius: 4px;
+	text-align: center;
+	padding: 50px 15px;
+	background: #fff;
+}
 
+.educations {
+	position: relative;
+}
 
+.education {
+	margin: 0 0 40px 0;
+}
 
+.education-img-1 {
+	float: left;
+	margin: 0;
+	padding-right: 15px;
+}
+
+.education-img-2 {
+	float: right;
+	margin: 0;
+	padding-left: 15px;
+}
+
+#box-alumini {
+	max-width: 900px;
+	margin: 10px auto;
+	border: 1px solid #e6e6e6;
+	border-radius: 4px;
+	text-align: center;
+	padding: 50px 15px;
+	background: #fff;
+}
 
 
 
