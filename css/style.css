@@ -203,8 +203,8 @@ p {
 .project img {
 	float: left;
 	padding-right: 15px;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 }
 
 #projects {
@@ -217,6 +217,7 @@ p {
 }
 
 .project h2 {
+	padding-top: 20px;
 	text-align: justify;
 	font-size: 1.1em;
 	margin: 0 0 15px 0;
@@ -239,6 +240,10 @@ p {
 	text-align: center;
 	padding: 50px 15px;
 	background: #fff;
+}
+
+.publication-info {
+	margin-bottom: 30px;
 }
 
 .box-content {
@@ -333,7 +338,7 @@ p {
 	border-radius: 4px;
 	text-align: center;
 	padding: 50px 15px;
-	background: #f2f2f5;
+	background: #fff;
 }
 
 #contact-form {
@@ -348,7 +353,7 @@ p {
 	border-radius: 4px;
 	border: none;
 	margin-bottom: 10px;
-	background: #fff;
+	background: #f2f2f5;
 }
 
 #contact-form textarea {
@@ -360,11 +365,11 @@ p {
 	position: relative;
 	display: block;
 	width: 100%;
-	background: #fff;
+	background: #f2f2f5;
 	border-radius: 4px;
 	padding: 5px 10px;
 	border: none;
-	color: red;
+	color: #3498db;
 	font-weight: 700;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 12%), 0 1px 2px rgba(0, 0, 0, 24%);
 }
@@ -393,7 +398,7 @@ p {
 
 .icons a {
 	display: block;
-	color: red;
+	color: #3498db;
 	padding: 10px;
 }
 
